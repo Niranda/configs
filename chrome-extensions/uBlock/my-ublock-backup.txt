@@ -1,0 +1,133 @@
+{
+  "timeStamp": 1481158635207,
+  "version": "1.10.0",
+  "userSettings": {
+    "advancedUserEnabled": true,
+    "alwaysDetachLogger": false,
+    "autoUpdate": true,
+    "cloudStorageEnabled": true,
+    "collapseBlocked": true,
+    "colorBlindFriendly": false,
+    "contextMenuEnabled": true,
+    "dynamicFilteringEnabled": true,
+    "externalLists": "! Examples:\n! https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt\n",
+    "firewallPaneMinimized": true,
+    "hyperlinkAuditingDisabled": true,
+    "ignoreGenericCosmeticFilters": false,
+    "largeMediaSize": 50,
+    "parseAllABPHideFilters": true,
+    "prefetchingDisabled": true,
+    "requestLogMaxEntries": 1000,
+    "showIconBadge": true,
+    "tooltipsDisabled": false,
+    "webrtcIPAddressHidden": true
+  },
+  "filterLists": {
+    "assets/user/filters.txt": {
+      "group": "default",
+      "off": false,
+      "entryCount": 0,
+      "entryUsedCount": 0
+    },
+    "assets/ublock/experimental.txt": {
+      "title": "uBlock filters – Experimental",
+      "group": "default",
+      "off": true,
+      "supportURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "supportName": "github.com"
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
+      "title": "EasyList",
+      "group": "ads",
+      "homeURL": "https://easylist.to/easylist/easylist.txt",
+      "supportURL": "https://forums.lanik.us/",
+      "off": false,
+      "entryCount": 69679,
+      "entryUsedCount": 69543
+    },
+    "https://easylist-downloads.adblockplus.org/easylistgermany.txt": {
+      "off": false,
+      "title": "DEU: EasyList Germany",
+      "group": "regions",
+      "lang": "de",
+      "supportURL": "https://forums.lanik.us/viewforum.php?f=90",
+      "entryCount": 9605,
+      "entryUsedCount": 9601
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
+      "title": "EasyPrivacy",
+      "group": "privacy",
+      "homeURL": "https://easylist.to/easylist/easyprivacy.txt",
+      "supportURL": "https://forums.lanik.us/",
+      "off": false,
+      "entryCount": 12245,
+      "entryUsedCount": 12198
+    },
+    "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt": {
+      "off": false,
+      "title": "Fanboy’s Annoyance List",
+      "group": "social",
+      "supportURL": "https://forums.lanik.us/",
+      "entryCount": 24942,
+      "entryUsedCount": 10238
+    },
+    "https://easylist-downloads.adblockplus.org/fanboy-social.txt": {
+      "off": false,
+      "title": "Fanboy’s Social Blocking List",
+      "group": "social",
+      "supportURL": "https://forums.lanik.us/",
+      "entryCount": 14699,
+      "entryUsedCount": 14699
+    },
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt": {
+      "off": false,
+      "title": "Adblock Warning Removal List",
+      "group": "ads",
+      "supportURL": "https://forums.lanik.us/",
+      "entryCount": 297,
+      "entryUsedCount": 285
+    },
+    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
+      "title": "Malware domains",
+      "group": "malware",
+      "homeURL": "https://mirror.cedia.org.ec/malwaredomains/justdomains",
+      "supportURL": "http://www.malwaredomains.com/",
+      "off": false,
+      "entryCount": 12412,
+      "entryUsedCount": 12385
+    },
+    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
+      "title": "Peter Lowe’s Ad and tracking server list",
+      "group": "multipurpose",
+      "homeURL": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
+      "supportURL": "https://pgl.yoyo.org/adservers/",
+      "off": false,
+      "entryCount": 2367,
+      "entryUsedCount": 2367
+    },
+    "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt": {
+      "off": false,
+      "title": "Anti-Adblock Killer | Reek",
+      "group": "ads",
+      "supportURL": "https://github.com/reek/anti-adblock-killer",
+      "instructionURL": "https://github.com/reek/anti-adblock-killer#instruction",
+      "entryCount": 2179,
+      "entryUsedCount": 2170
+    },
+    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
+      "title": "Malware Domain List",
+      "group": "malware",
+      "homeURL": "https://www.malwaredomainlist.com/hostslist/hosts.txt",
+      "off": false,
+      "entryCount": 1250,
+      "entryUsedCount": 1250
+    }
+  },
+  "hiddenSettingsString": "ignoreRedirectFilters false\nignoreScriptInjectFilters false\npopupFontSize unset\nsuspendTabsUntilReady false",
+  "netWhitelist": "about-scheme\nbehind-the-scene\nchrome-extension-scheme\nchrome-scheme\nloopconversation.about-scheme\nopera-scheme\nvivaldi-scheme",
+  "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "",
+  "userFilters": ""
+}
