@@ -1,0 +1,36 @@
+https-strict: * true
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: opera-scheme true
+referrer-spoof: * true
+ua-spoof: * true
+* * * block
+* * css allow
+* * frame block
+* * image allow
+* * script block
+* 1st-party * allow
+* 1st-party frame allow
+gamestar.de ajax.googleapis.com script allow
+github.com assets-cdn.github.com script allow
+sempervideo.de googlevideo.com xhr allow
+sempervideo.de s.ytimg.com script allow
+sempervideo.de www.youtube.com script allow
+sempervideo.de www.youtube.com xhr allow
+sempervideo.de youtube.com frame allow
+twitter.com abs.twimg.com script allow
+twitter.com googlevideo.com xhr allow
+twitter.com redirector.googlevideo.com xhr block
+twitter.com s.ytimg.com script allow
+twitter.com ton.twimg.com script allow
+twitter.com video.twimg.com other allow
+twitter.com video.twimg.com xhr allow
+twitter.com www.youtube.com frame allow
+twitter.com www.youtube.com script allow
+twitter.com www.youtube.com xhr allow
+youtube.com googlevideo.com xhr allow
+youtube.com youtube.com script allow
+youtube.com ytimg.com script allow
